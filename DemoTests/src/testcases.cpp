@@ -8,8 +8,8 @@ class Facttest1 : public ::testing::Test {
 };
 
 TEST_F(Facttest1, factorial){
-	int result = factorial(2);
-	  ASSERT_EQ(1, result);
+	int result = factorial(0);
+	  ASSERT_EQ(0, result);
 }
 
 }
