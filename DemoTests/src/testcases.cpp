@@ -9,7 +9,7 @@ class Facttest1 : public ::testing::Test {
 
 TEST_F(Facttest1, factorial){
 	int result = factorial(0);
-	  ASSERT_EQ(0, result);
+	  ASSERT_EQ(1, result);
 }
 
 }
